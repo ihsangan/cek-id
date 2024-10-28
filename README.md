@@ -1,1 +1,1 @@
-# cek-id
+simple implementation of [@ihsangan/valid](https://github.com/ihsangan/valid)

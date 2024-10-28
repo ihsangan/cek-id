@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Nickname Checker</title>
+</head>
+<body>
+  <p>Game nickname checker</p>
+  <select id="game" onchange="gameName()">
+    <option selected disabled>Choose game</option>
+    <option value="ff">Free Fire</option>
+    <option value="ml">Mobile Legends</option>
+  </select>
+  <input type="text" id="id" size="13" placeholder="Player ID">
+  <input type="text" id="zone" size="5" placeholder="zone/server" readonly>
+  <button onclick="check()">check</button>
+  <p id="name">　</p>
+  <p>More info in <a href="https://github.com/ihsangan/valid">GitHub</a></p>
+  <script src="script.js"></script>
+</body>
+</html>
